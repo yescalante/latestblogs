@@ -11,7 +11,6 @@ const BlogSingle = (props) => {
 
   return (
     <div className="scroll-area-sm shadow-overflow">
-      <React.Fragment>
         <List>
           <ListItem className="py-4">
             <div className="d-flex flex-column flex-sm-row align-items-start">
@@ -57,7 +56,6 @@ const BlogSingle = (props) => {
             </div>
           </ListItem>
         </List>
-      </React.Fragment>
     </div>
   );
 };
