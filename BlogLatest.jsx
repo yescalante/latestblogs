@@ -63,7 +63,6 @@ class BlogLatest extends React.Component {
 
   render() {
     return (
-      <React.Fragment>
         <Grid container spacing={4}>
           <Grid item xs={12} xl={6}>
             <Card className="card-box mb-4">
@@ -124,7 +123,6 @@ class BlogLatest extends React.Component {
             </Card>
           </Grid>
         </Grid>
-      </React.Fragment>
     );
   }
 }
