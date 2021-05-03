@@ -128,5 +128,4 @@ class BlogLatest extends React.Component {
 }
 
 BlogLatest.propTypes = blogLatestProps;
-
 export default BlogLatest;
